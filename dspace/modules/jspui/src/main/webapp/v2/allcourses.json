@@ -1,0 +1,75 @@
+{"level": [
+{
+  "id": "1",
+  "value": "primary",
+  "clas": [{
+    "id": "1",
+	"value": "A dimotikou",
+    "course": [
+      {"id": "1", "value": "maths"},
+      {"id": "2", "value": "greek lang"},
+      {"id": "3", "value": "arts"}
+    ]
+  },
+  {
+    "id": "2",
+	"value": "B dimotikou",
+    "course": [
+      {"id": "1", "value": "maths B"},
+      {"id": "2", "value": "greek lang B"},
+      {"id": "3", "value": "arts B"}
+    ]
+  }
+  
+  ]
+},
+{
+  "id": "2",
+  "value": "lower secondary",
+  "clas": [{
+    "id": "3",
+	"value": "A gymnasiou",
+    "course": [
+      {"id": "1", "value": "chemistry"},
+      {"id": "2", "value": "physics"},
+      {"id": "3", "value": "ICT"}
+    ]
+  },
+  {
+    "id": "4",
+	"value": "B gymnasiou",
+    "course": [
+      {"id": "1", "value": "history"},
+      {"id": "2", "value": "french lang"},
+      {"id": "3", "value": "biology"}
+    ]
+  }
+  
+  ]
+},
+{
+  "id": "3",
+  "value": "ΓΕΝΙΚΟ ΛΥΚΕΙΟ",
+  "clas": [{
+    "id": "5",
+	"value": "Α ΛΥΚΕΙΟΥ",
+    "course": [
+      {"id": "1", "value": "ΧΗΜΕΙΑ"},
+      {"id": "2", "value": "ΦΥΣΙΚΗ"},
+      {"id": "3", "value": "ΤΠΕ"}
+    ]
+  },
+  {
+    "id": "6",
+	"value": "Β ΛΥΚΕΙΟΥ",
+    "course": [
+      {"id": "1", "value": "ΙΣΤΟΡΙΑ"},
+      {"id": "2", "value": "ΓΑΛΛΙΚΑ"},
+      {"id": "3", "value": "ΒΙΟΛΟΓΙΑ"}
+    ]
+  }
+  
+  ]
+}
+
+]}

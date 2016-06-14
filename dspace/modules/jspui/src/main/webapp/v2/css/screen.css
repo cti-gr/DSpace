@@ -1,0 +1,1231 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*@media all and (max-width: 89em) {
+	.course-menu {
+		left:110px;
+	}
+	}
+
+img {
+	max-width: 100%;
+}*/
+
+@media all and (min-width: 768px) and (max-width: 1030px) {
+
+	.lessons-list .accordion_cont ul {
+		overflow: hidden;
+	}
+
+	/*.courses-list ul li, .lessons-list ul li {
+		width: 25%;
+		margin: 0 4% 20px;
+	}*/
+
+	.lessons-list .accordion_cont ul li .course-name, .lessons-list .accordion_cont ul li .title_wrap {
+		height: 70px;
+	}
+
+	.lessons-list .accordion_cont ul li .title_wrap span {
+		font-size: 11px;
+	}
+
+	.lessons-list .ui-accordion-content, .courses-list .ui-accordion-content {
+		width: 100% !important;
+	}
+
+	.lessons-list .accordion_cont ul li {
+		width: 33%;
+		margin: 0 0 20px 0;
+	}
+
+	.lessons-list .accordion_cont ul li .bgexof {
+		height: 70px;
+		left: 16%;
+		width: 84%;
+	}
+
+	.lessons-list .accordion_cont ul li span.course-image {
+		width: 16%;
+	}
+
+	.lessons-list .accordion_column ul li .course-image img {
+		margin-top: 14px !important;
+	}
+	
+	
+	.daizy_top, .daizy_bottom {
+		left: -50px;
+	}
+
+	.daizy_center {
+		top: 117px;
+		left: -57px;
+	}
+	
+	.yellow_daizy .daizy_center, .blue_daizy .daizy_center {
+		top: 107px;
+	}
+
+	.daizy_right{
+		left:170px;
+	}
+
+	.daizy_bottom {
+		top: 164px;
+	}
+
+	.lesson_leaf{
+	width:70px;
+	height:70px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	}
+
+	.resources_leaf a, .resources_leaf p{
+	left: -194px;
+    top: -90px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-topright: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	}
+
+	.html_books_leaf a, .html_books_leaf .no-html-book {
+	top:-113px;
+	left:71px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	}
+	
+	.viomatikes_view.html_books_leaf a{
+		top:-96px;
+		}
+
+
+	#lesson_daizy .lesson_center{
+		width:85px;
+		height:85px;
+	}
+
+	.ebook_leaf {
+		left: -17px;
+		top: 3px;
+	}
+
+	#middle_right{
+		width: 75px;
+		height: 75px;
+	}
+
+	.ebook_leaf a, .ebook_leaf .no-interactive-book{
+		left: 99px;
+		top: -42px;		
+		-webkit-border-bottom-left-radius: 30px;
+		-webkit-border-top-right-radius: 30px;
+		-moz-border-radius-bottomleft: 30px;
+		-moz-border-radius-topright: 30px;
+		border-bottom-left-radius: 30px;
+		border-top-right-radius: 30px;
+	}
+
+
+	.pdfbooks_leaf a {
+		left:71px;
+		-webkit-border-bottom-left-radius: 20px;
+		-webkit-border-top-right-radius: 20px;
+		-moz-border-radius-bottomleft: 20px;
+		-moz-border-radius-topright: 20px;
+		border-bottom-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	.yellow_daizy .description_leaf {
+		left: 0px;
+		top: 0;
+	}
+
+	.glossary_leaf a, .ibooks_leaf a,  .ibooks_leaf p {
+		/*top: 300px;
+		left: -125px;*/
+		top: 87px;
+		left: -68px;
+	}
+	
+	.glossary_leaf a{
+		left:-45px;
+		}
+	
+	#footer-inner .footer-right { 
+		margin: 0 0 20px;
+	}
+	
+	.courses-list, .lessons-list {
+		width: 96%;
+	}
+}
+
+
+@media all and (max-width: 75em) {
+
+	.logo-small{
+		display: inline-block;
+		height: auto;
+		margin: 20px 0 0 10px;
+		width: 150px;
+		float: left;
+	}
+
+	#content-inner {
+		margin-top: 45px;
+	}
+
+	#digital_school_menu {
+		top: 100px !important;
+	}
+
+	.daizy_all, .daizy_class, .daizy_lesson {
+		width: 29%;
+	}
+
+	.daizy_all, .daizy_lesson {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+
+	.daizy_class {
+		margin: 0;
+	}
+
+	.daizy_all span, .daizy_class span.second, .daizy_lesson span {
+		font-size: 17px;
+		text-align: center;
+	}
+
+	.logo-small-digitalsch{
+		display: inline-block;
+		height: auto;
+		margin: 40px 0 0 10px;
+		float: left;
+	}
+
+
+	.logo, .logo-digitalsch {
+		display: none;
+	}
+
+	.menu-wrapper{
+		width:65%;
+		margin-top:0px;}
+
+	#header{
+		height:90px;}
+
+
+	#img_container, #bg_img {
+		top:90px;}
+
+
+	#content_home {
+		top:90px;
+	}
+
+	.class_header{
+		top:120px;
+	}
+
+	#content_course {
+		top:90px;
+	}
+
+	.frontpage-levels .dimotiko {
+		margin-top: 15px;
+	}
+
+	.frontpage-levels .dimotiko, .frontpage-levels .gymnasio, .frontpage-levels .lykeio, .frontpage-levels .epal {
+		margin-left: 15px;
+	}
+
+	.lessons-list .accordion_cont ul {
+		overflow: hidden;
+	}
+
+	/*.courses-list ul li, .lessons-list ul li {
+		width: 25%;
+		margin: 0 4% 20px;
+	}*/
+
+	.lessons-list .accordion_cont ul li .course-name, .lessons-list .accordion_cont ul li .title_wrap {
+		height: 70px;
+	}
+
+	.lessons-list .accordion_cont ul li .title_wrap span {
+		font-size: 11px;
+	}
+
+	.lessons-list .ui-accordion-content {
+		width: 100% !important;
+	}
+
+	.lessons-list .accordion_cont ul li {
+		width: 33%;
+		margin: 0 0 20px 0;
+	}
+
+	.lessons-list .accordion_cont ul li .bgexof {
+		height: 70px;
+		left: 16%;
+		width: 84%;
+	}
+
+	.lessons-list .accordion_cont ul li span.course-image {
+		width: 16%;
+	}
+
+	.lessons-list .accordion_column ul li .course-image img {
+		margin-top: 14px !important;
+	}
+	
+	.courses-list .class_pdf {
+		max-width: 370px;
+	}
+	
+	#footer-inner .footer-right { 
+		margin: 0 0 20px;
+	}
+	
+	.page_404{
+		width:80%;
+	}
+	
+	
+}
+
+
+@media all and (max-width: 57em) {
+
+	.menu-title {
+	   left: -10px;
+		line-height: 16px;
+		margin-top: 0;
+		padding: 0 5px 0 12px;
+		font-size:14px;
+	}
+
+
+	.yellow_cycle, .red_cycle, .blue_cycle{
+		width:15px;
+		height:15px;
+	}
+
+	.menu-wrapper {
+		margin-top: 10px;
+	}
+
+	.menu-wrapper a,  .menu-wrapper #class_menu{
+		margin-right:10px;}
+
+	.menu-wrapper a.active .menu-title, .menu-wrapper #class_menu.active .menu-title{
+		background-color:#474747;
+		color:#fff;
+		-webkit-border-top-right-radius: 20px;
+		-moz-border-radius-topright: 20px;
+		border-top-right-radius: 20px;
+		}
+
+	.menu-wrapper a:hover .menu-title, .menu-wrapper  #class_menu:hover .menu-title, #class_menu.active_submenu .menu-title {
+		background-color:#686868;
+		color:#fff;
+		-webkit-border-top-right-radius: 20px;
+		-moz-border-radius-topright: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	.daizy_all, .daizy_class, .daizy_lesson {
+		margin: 5px 4%;
+		width: 25%;
+	}
+
+	.daizy_all img {
+		width: 80%;
+		height: auto;
+	}
+
+	.daizy_class img {
+		width: 83%;
+		height: auto;
+	}
+
+	.daizy_lesson img {
+		width: 86%;
+		height: auto;
+	}
+
+	.epipeda {
+		right: 205px;
+		top: 17px;
+		width: 115px;
+	}
+
+	.epipeda  .dimotiko, .epipeda .gymnasio, .epipeda .lykeio, .epipeda .epal {
+		width: 115px;
+	}
+
+	.submenu {
+		top:17px;}
+
+	.lesson-subtitle, .class-subtitle {
+		font-size:12px;
+		line-height:15px;}
+
+	#class_submenu{
+		margin-right:190px;}
+
+	.yellow_arrow{
+		width:160px;
+		background-size:10%;
+		height:7px;}
+
+	.red_arrow{
+		background-size:10%;
+		height:7px;}
+
+		#footer {
+			height:auto;}
+
+	.lessons-list .accordion_cont ul li {
+		margin: 0 1% 20px;
+		width: 48%;
+	}
+
+	.lessons-list .accordion_cont ul li .title_wrap span {
+		font-size: 12px;
+	}
+
+	.daizy_top, .daizy_bottom {
+		left: -50px;
+	}
+
+	.daizy_center {
+		top: 127px;
+		left: -57px;
+	}
+	
+	.yellow_daizy .daizy_center, .blue_daizy .daizy_center {
+		top: 107px;
+	}
+	
+	.ebook_leaf {
+		/*left: -26px;
+		top: 3px;*/
+	}
+
+	.daizy_right{
+		left:170px;
+	}
+
+	.daizy_bottom {
+		top: 184px;
+	}
+	
+	.yellow_daizy .daizy_bottom, .blue_daizy .daizy_bottom {
+		top: 164px;
+	}
+
+	.lesson_leaf{
+	width:70px;
+	height:70px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	}
+
+	.resources_leaf a, .resources_leaf p{
+	left: -160px;
+    top: -92px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-topright: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	}
+
+	.html_books_leaf a, .html_books_leaf .no-html-book{
+	top:-113px;
+	left:71px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	}
+
+	.viomatikes_view.html_books_leaf a{
+		top:-92px;
+		}
+
+	#lesson_daizy .lesson_center{
+		width:85px;
+		height:85px;
+	}
+
+	.ebook_leaf {
+		left: -17px;
+		top: 3px;
+	}
+
+	#middle_right{
+		width: 75px;
+		height: 75px;
+	}
+
+	.ebook_leaf a, .ebook_leaf .no-interactive-book{
+		left: 99px;
+		top: -42px;
+		-webkit-border-bottom-left-radius: 30px;
+		-webkit-border-top-right-radius: 30px;
+		-moz-border-radius-bottomleft: 30px;
+		-moz-border-radius-topright: 30px;
+		border-bottom-left-radius: 30px;
+		border-top-right-radius: 30px;
+		padding: 2px 5px 2px 12px
+	}
+	
+	.glossary_leaf a, .ibooks_leaf a, .ibooks_leaf p {
+		top: 88px;
+		left: -68px;
+	}
+
+
+	.glossary_leaf a{
+		left:-45px;
+		}
+
+
+	.pdfbooks_leaf a {
+		left:71px;
+		-webkit-border-bottom-left-radius: 20px;
+		-webkit-border-top-right-radius: 20px;
+		-moz-border-radius-bottomleft: 20px;
+		-moz-border-radius-topright: 20px;
+		border-bottom-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	.yellow_daizy .description_leaf {
+		left: -40px;
+		top: 25px;
+	}
+
+	.yellow_daizy .description_leaf a, .yellow_daizy .description_leaf p {
+		/*top: 230px;
+		left: -84px;*/
+	}
+	
+	
+	.page_404{
+		width:85%;
+	}
+	
+}
+
+
+@media all and (max-width: 50em) {
+
+	#header-menu{
+		margin-top: 3px;
+		margin-right: 2px;
+	}
+
+	#small_menu {
+		top: 30px;
+		right: 0px;
+	}
+
+	.daizy_all img {
+		width: 80%;
+		height: auto;
+	}
+
+	.daizy_class img {
+		width: 83%;
+		height: auto;
+	}
+
+	.daizy_lesson img {
+		width: 86%;
+		height: auto;
+	}
+
+	.courses-list, .lessons-list {
+		min-width: 100px;
+	}
+
+	.epipeda_small{
+		width:100%;}
+
+
+	.epipeda_small span{
+		float: left;
+		font-size: 12px;
+		padding-left: 10px;
+		width: 80px;
+	}
+
+	.epipeda_small ul{
+		width:auto;
+		float:left;
+		margin:0px;
+		padding:0px;}
+
+	.epipeda_small li{
+		display:inline-block;
+		width:auto;
+		float:left;
+		padding:0px;}
+
+
+	.epipeda_small li a{
+		height:auto;
+		font-size:12px;
+		background-color:transparent;
+		border:none;
+		padding:0px 10px;
+		color:inherit;
+		text-decoration:none;}
+
+	.epipeda_small li:hover{
+		background-color:#000;
+		color:#fff;}
+
+
+
+	.epipeda_small .dimotiko, .epipeda_small .gymnasio, .epipeda_small .lykeio, .epipeda_small .epal {
+		width:100%;
+		border-bottom: 1px solid #A05C5C;
+		}
+
+	#header {
+		height: 65px;
+	}
+
+	#img_container, #bg_img {
+		top: 65px;
+	}
+
+	.logos{
+		width:20%;}
+
+	.logo-small{
+		margin: 0px 0 5px 10px;
+		margin-left:5%;
+		clear:none;
+	}
+
+	.logo-small-digitalsch{
+		margin: 20px 0 0 10px;
+		float: left;
+	}
+
+
+	#img_container, #bg_img {
+		/*top:0;*/
+	}
+
+
+	#content_home {
+		top:60px;
+	}
+
+	.class_header{
+		top:90px;
+	}
+
+	#content_course {
+		top:60px;
+		}
+
+	.menu-wrapper{
+		width:80%;
+		margin-top:0px;
+		min-height:0px;}
+
+
+	.main_menu, .submenu{
+		display:none;}
+
+	#small_menu{
+		display:inline-block;
+		background-color:#A1E2DE;
+		cursor:pointer;
+		}
+
+	#small_menu.selected, #small_menu:hover{
+		background-color:#7DB7AE;
+	}
+
+	.yellow_cycle, .red_cycle, .blue_cycle{
+		display:none;}
+
+	.menu-title{
+		line-height:15px;
+		color:#474747;
+		font-size:14px;
+		font-weight:bold;
+		float:none;
+		position:relative;
+		left:0px;
+		padding:0px;
+		z-index:1;
+		margin-top:0px;
+	}
+
+	.menu-wrapper a, .menu-wrapper #class_menu{
+		margin-right:0px;
+		display:block;
+		text-decoration:none;
+		border-bottom:solid 1px #aaa;
+		background-color:#fff;
+		padding: 4px 10px;
+		height:auto;
+		float:none;
+		clear:both;
+		}
+
+	.menu-wrapper #all_menu:hover, .menu-wrapper #all_menu.active, .menu-wrapper #all_menu.active_submenu{
+		background-color: #509CA0;
+		color:#fff;
+		}
+
+	.menu-wrapper #lesson_menu:hover, .menu-wrapper #lesson_menu.active, .menu-wrapper #lesson_menu.active_submenu{
+		background-color: #CCB248;
+		color:#fff;
+		}
+
+	.menu-wrapper #class_menu:hover, .menu-wrapper #class_menu.active, .menu-wrapper #class_menu.active_submenu{
+		background-color: #A05C5C;
+		color:#fff;
+		}
+
+	.menu-wrapper a.active .menu-title, .menu-wrapper  #class_menu.active .menu-title, .menu-wrapper a:hover .menu-title, .menu-wrapper  #class_menu:hover .menu-title, #class_menu.active_submenu .menu-title{
+		background-color:inherit;
+		color:inherit;
+		-webkit-border-top-right-radius: 0px;
+		-moz-border-radius-topright:0px;
+		border-top-right-radius: 0px;
+		}
+
+	
+	.didaktiko-paketo, .psifiaka-vivlia, .perigrafi, .ypostiriktiko-yliko, .curriculum, .lesson_curriculum  {
+		width: 90%;
+	}
+
+	.perigrafi .ui-accordion-content {
+		width: 96%;
+		padding: 1px 2% 10px !important;
+	}
+
+	.perigrafi .des-section .course-des, .ypostiriktiko-yliko ul, .other-links .not-found, .psifiaka-vivlia .des-section ,.noibook_mes{
+		padding: 15px;
+	}
+
+	.perigrafi .des-section h1 {
+		margin-bottom: 10px;
+	}
+	
+	#content_contact_itye .contact .itye-address {
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+	
+	#content_contact_itye .contact .minedu-address {
+		margin-left: 20px;
+	}
+	
+	#content_contact_itye .contact .form-info, .contact-form ol, #content_contact_itye .contact .itye-logo {
+		padding-left: 20px;
+	}
+	
+	.page_404{
+		width:95%;}
+}
+
+@media all and (max-width: 45em) {
+	.daizy_top, .daizy_bottom {
+		left: 67px;
+	}
+
+	.daizy_center, .yellow_daizy .daizy_center, .blue_daizy .daizy_center {
+		left: 26px;
+		top: 92px;
+	}
+
+	.daizy_bottom {
+		top: 140px;
+	}
+	
+	.yellow_daizy .daizy_bottom, .blue_daizy .daizy_bottom {
+    top: 140px;
+}
+	
+	.daizy_center .ebook_leaf #middle_right {
+    border-width: 2px;
+}
+
+	.lesson_leaf{
+		width:40px;
+		height:40px;
+		-webkit-border-top-left-radius: 15px;
+		-webkit-border-bottom-right-radius: 15px;
+		-moz-border-radius-topleft: 15px;
+		-moz-border-radius-bottomright: 15px;
+		border-top-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+
+	.resources_leaf a, .resources_leaf p{
+		left: -30px;
+		top: 168px;
+		-webkit-border-bottom-left-radius: 15px;
+		-webkit-border-top-right-radius: 15px;
+		-moz-border-radius-bottomleft: 15px;
+		-moz-border-radius-topright: 15px;
+		border-bottom-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+
+	#top_left1 {
+		left: -75px;
+		top: 35px;
+	}
+
+	.red_daizy #top_center, .blue_daizy #top_center, .yellow_daizy #top_center {
+		left: -45px;
+		top: 28px;
+	}
+
+	#top_right1 {
+		left: -12px;
+		top: 35px;
+	}
+
+	.html_books_leaf {
+		left: 3px;
+		top: 55px;
+	}
+
+	.html_books_leaf a{
+		-webkit-border-top-left-radius: 15px;
+		-webkit-border-bottom-right-radius: 15px;
+		-moz-border-radius-topleft: 15px;
+		-moz-border-radius-bottomright: 15px;
+		border-top-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+
+	#lesson_daizy .lesson_center {
+		width: 40px;
+		height: 40px;
+	}
+
+	.daizy_right {
+		left: 78px;
+		top: -2px;
+	}
+
+	.ebook_leaf {
+		left: 5px;
+		top: -3px;
+	}
+
+	#middle_right {
+		width: 45px;
+		height: 45px;
+	}
+
+	.daizy_center a {
+		top: 225px;
+		left: -167px;
+	}
+
+	.yellow_daizy .daizy_center a, .blue_daizy .daizy_center a {
+		top: 253px;
+	}
+
+	.lesson_leaf {
+		width:40px;
+		height:40px;
+		-webkit-border-top-left-radius: 15px;
+		-webkit-border-bottom-right-radius: 15px;
+		-moz-border-radius-topleft: 15px;
+		-moz-border-radius-bottomright: 15px;
+		border-top-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+
+	.ebook_leaf .no-interactive-book {
+		-webkit-border-top-right-radius: 15px;
+		-webkit-border-bottom-left-radius: 15px;
+		-moz-border-radius-topright: 15px;
+		-moz-border-radius-bottomleft: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+		left: -167px;
+		top: 178px;
+	}
+
+	.daizy_top .html_books_leaf a {
+		left: -128px;
+		top: 200px;
+	}
+
+	.photodentro_leaf {
+		left: -95px;
+		top: -55px;
+	}
+
+	.photodentro_leaf a {
+		left: -30px;
+		top: 240px;
+		-webkit-border-top-left-radius: 15px;
+		-webkit-border-bottom-right-radius: 15px;
+		-moz-border-radius-topleft: 15px;
+		-moz-border-radius-bottomright: 15px;
+		border-top-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+	
+	.yellow_daizy .description_leaf a, .yellow_daizy .description_leaf p, .blue_daizy .curriculum_leaf a{
+		top: 253px;
+		left: -125px;
+	}
+
+	#bottom_left1 {
+		left: -70px;
+		top: -35px;
+	}
+
+	#bottom_center {
+		left: -41px;
+		top: -27px;
+	}
+
+	#bottom_right1 {
+		left: -12px;
+		top: -35px;
+	}
+
+	.pdfbooks_leaf {
+		left: 6px;
+		top: -55px;
+	}
+
+	.pdfbooks_leaf a {
+		left: -131px;
+		top: 275px;
+	}
+
+	.resources_leaf a, .resources_leaf p, .daizy_top .html_books_leaf a, #lesson_daizy a, .yellow_daizy .ebook_leaf .no-interactive-book, .yellow_daizy .ebook_leaf .no-interactive-book, 
+	.yellow_daizy .html_books_leaf .no-html-book , .yellow_daizy .daizy_center a, .blue_daizy .daizy_center a, .glossary_leaf a, .ibooks_leaf a, .ibooks_leaf p
+	{
+		width: 200px;
+		text-align: center;
+		padding-right: 10px;
+		padding-left: 10px;
+		position: absolute;
+	}
+
+	.yellow_daizy .daizy_top .html_books_leaf a, .yellow_daizy .html_books_leaf .no-html-book,  .blue_daizy .daizy_top .html_books_leaf a{
+		top: 232px;
+	}
+
+	.yellow_daizy .html_books_leaf .no-html-book {
+		left: -128px;
+	}
+
+	.yellow_daizy .no-interactive-book {
+		top: 256px;
+	}
+
+	.yellow_daizy .photodentro_leaf a, .blue_daizy .photodentro_leaf a{
+		top: 270px;
+	}
+	
+	.yellow_daizy .viomatikes_view.photodentro_leaf a{
+		top: 194px;
+	}
+
+	.yellow_daizy .pdfbooks_leaf a, .blue_daizy .pdfbooks_leaf a{
+		top: 305px;
+	}
+	
+	.yellow_daizy .viomatikes_view.pdfbooks_leaf a{
+		top: 230px;
+	}
+	
+	.glossary_leaf a, .ibooks_leaf a, .ibooks_leaf p {
+		top: 300px;
+		left: -125px;
+	}
+	
+	.red_daizy .ibooks_leaf a, .red_daizy .ibooks_leaf p {
+	top: 276px;
+	}
+	
+	.class-stbooks-bglyk, .class-otherbooks-bglyk {
+		width: 100%;
+	}
+	
+	.page_404{
+		width:100%;
+		}
+		
+	.page_404 .message_cont{
+		width:100%;
+		left:inherit;
+		margin:auto;
+		max-height:390px;
+		max-width:380px;
+		float:none;
+	}
+	
+	.page_404 .text_cont{
+		width:100%;
+		left:inherit;
+		margin:auto;
+		max-height:450px;
+		max-width:430px;
+		top:0px;
+		float:none;
+	}
+
+	.main-course-links {
+		padding-top: 0px;
+		padding-bottom: 30px;
+	}
+
+
+}
+
+
+@media all and (max-width: 35em) {
+
+	.daizy_all, .daizy_class, .daizy_lesson {
+		width: 90%;
+		margin: 10px 5% 40px;
+	}
+
+	#content_contact_itye .contact .itye-logo, #content_contact_itye .contact .itye-address, #content_contact_itye .contact .form-info, form#captcha_form ol {
+		padding-left: 0;
+	}
+
+	form#captcha_form li input.soloinput, form#captcha_form li select.soloinput, form#captcha_form li textarea.soloinput, form#captcha_form li div.soloinput {
+		padding: 0.4em 1%;
+		width: 95%;
+	}
+
+	.all-downloads {
+		width: 47%;
+	}
+
+	.class-stbooks, .class-otherbooks {
+		width: 100%;
+		display: block;
+		margin-right: 0;
+	}
+
+	.class-stbooks {
+		margin-bottom: 10px;
+	}
+
+	.daizy_all img, .daizy_class img, .daizy_lesson img {
+		width: 50%;
+		height: auto;
+	}
+
+	.lessons-list .accordion_cont ul li {
+		margin: 0 1% 20px;
+		width: 98%;
+	}
+
+	.lessons-list.accordion_cont  ul li .title_wrap span {
+		font-size: 12px;
+	}
+
+	.lessons-list  .accordion_cont ul li span.course-image {
+			width: 10%;
+	}
+
+	.lessons-list  .accordion_cont ul li .bgexof {
+		left: 10%;
+	} 
+	
+	
+
+}
+
+
+@media all and (max-width: 30em) {
+	/* .logo-small {
+		display: none;
+	} */
+
+	.logo-small-digitalsch {
+		float: none;
+		margin: 0px auto 0;
+		padding: 5px 0 0;
+		width: 104px;
+		display: block;
+	}
+
+	.logos {
+		width: auto;
+	}
+
+	#small_menu {
+		top: 50px;
+	}
+
+	#header {
+		height: 90px;
+	}
+
+
+	.lessons-list .accordion_cont ul li span.course-image, .courses-list ul li.html_listitems .course-image img /*, .courses-list ul li.pdf-buttons .course-image img*/ {
+		display: none;
+	}
+
+	.lessons-list .accordion_cont ul li .bgexof, .courses-list ul li.html_listitems .bgexof {
+		left: 0%;
+		width: 100%;
+	}
+
+	.lessons-list .accordion_cont ul li .course-name {
+		width: 98%;
+		padding: 0 1%;
+	}
+
+	.courses-list ul li .title_wrap span {
+		white-space: normal;
+	}
+
+	.class-title h1, .main-class-title h1 {
+		font-size: 20px;
+	}
+
+	.levels-title h2 {
+		font-size: 15px;
+	}
+	
+	.daizy_all img, .daizy_class img, .daizy_lesson img {
+		width: 50%;
+		height: auto;
+	}
+	.courses-list ul li.pdf-buttons .bgexof, .course-paketo-cont {
+		width: 250px;
+	}
+	
+	.course-folder {
+		width: 240px;
+	}
+	
+	.courses-list ul li.html_listitems .course-name, .courses-list ul li .course-name, .lessons-list ul li .course-name {
+		width: 210px;
+	}
+
+}
+
+
+
+
+@media all and (min-width: 30em) and (max-width: 50em) {
+	#content-inner {
+		margin-top: 45px;
+	}
+
+	#digital_school_menu {
+		top: 80px !important;
+	}
+	
+	
+
+	
+
+}
+
+@media all and (min-width: 5em) and (max-width: 29em) {
+	#content-inner {
+		margin-top: 70px;
+	}
+
+	.lessons-list .accordion_cont ul li .bgexof {
+		background-color: transparent;
+		height: auto;
+	}
+
+	.lessons-list .accordion_cont ul li .course-name {
+		background: #cfcfcf;
+		height: auto;
+		padding: 5px 1%;
+	}
+
+	.lessons-list .accordion_cont ul li .title_wrap {
+		height: auto;
+	}
+
+	.lessons-list .accordion_cont ul li {
+		margin-bottom: 15px;
+	}
+
+	.all-downloads {
+		width: 98%;
+		margin: 0 auto 10px;
+	}
+
+	.courses-list ul li.html_listitems .course-name,
+	.courses-list ul li .course-name, .lessons-list ul li .course-name	{
+		width: 200px;
+	}
+	
+	.glossary_leaf a, .ibooks_leaf a, .ibooks_leaf p {
+		top: 300px;
+		left: -125px;
+	}
+	
+	.courses-list ul li.html_listitems .course-name, .courses-list ul li .course-name, .lessons-list ul li .course-name {
+		width: 167px;
+	}
+	
+	.courses-list ul li.pdf-buttons .bgexof, .course-paketo-cont {
+		width: 210px;
+	}
+	
+	.course-folder {
+		width: 190px;
+	}
+	
+	.page_404{
+		width:320px;
+	}
+	.page_404 .message_cont p {
+		font-size:16px;}
+		
+	.page_404 .text_cont ul {
+		font-size:14px;}	
+	
+}

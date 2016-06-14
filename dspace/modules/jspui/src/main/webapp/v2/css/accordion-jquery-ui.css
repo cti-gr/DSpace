@@ -1,0 +1,219 @@
+/*! jQuery UI - v1.10.3 - 2013-05-03
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=highlight_soft&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=glass&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+* Copyright 2013 jQuery Foundation and other contributors Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.courses-list .ui-state-default{
+	margin-top:auto !important;
+	padding-top:auto !important;
+	}
+
+	
+	
+.classes-list .accordion_column	{
+	float:left;
+	margin-right: 6%;
+    width: 27%;
+	margin-bottom:20px;}
+	
+.lessons-list .accordion_column	{
+    width: 100%;
+	margin-bottom:0px;}	
+	
+.accordion_column ul li .course-image img{
+	height:45px;
+	width:45px;
+	margin-top:7px;
+	}	
+	
+
+.classes-list .accordion_column.lesson	a{
+	 background: none;
+}
+	
+.lessons-list .accordion_class, .perigrafi .accordion_class{
+	font-size:14px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-bottom-right-radius: 20px;
+	border:none;
+	height:20px;
+	line-height:20px;
+	padding:5px;
+	cursor:pointer;
+	margin-bottom:7px;
+	display:block;
+	border-bottom:1px solid #e2d396;
+	
+	/*background:url(img/ITYE/white_arrow.png) no-repeat  98% center #B29728; */ 
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	  filter: alpha(opacity=80);
+	  -moz-opacity: 0.8;
+	  -khtml-opacity: 0.8;
+	  opacity: 0.8;	 
+	  
+	background:url(../img/white_arrow.png) no-repeat  98%  center ; /* Old browsers */
+	  	
+	color:#fff;
+	text-transform:uppercase;
+	padding-left:20px;
+	}	
+
+
+
+.pdf .accordion_class, .html .accordion_class{
+	font-size:14px;
+	/*color:#5D5D5D;*/
+	color:#fff;
+	width:96%;
+	border:none;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom:1px solid #83e2d9;
+	padding:6px 2%;
+	cursor:pointer;
+	margin:auto;
+	margin-bottom:7px;
+	text-transform: uppercase;
+		/* background:url(img/ITYE/grey_arrow.png) no-repeat  98%  center, -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); FF3.6+ */
+	background:url(../img/white_arrow.png) no-repeat  98%  center ; /* Old browsers */
+	
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	  filter: alpha(opacity=80);
+	  -moz-opacity: 0.8;
+	  -khtml-opacity: 0.8;
+	  opacity: 0.8;	 
+	clear:both;
+	}
+	
+
+.perigrafi .accordion_class{
+	text-transform: none;
+	width:97%;
+}
+
+.perigrafi .accordion_class a{
+	color: #3E7D7F;
+}
+
+.perigrafi .ui-accordion-content {
+	display:none;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+	padding: 15px 20px 10px 20px;
+	border-radius: 10px;
+	min-height: 230px;
+}
+	
+.accordion_cont{
+    position: relative;
+    width: 100%;
+	clear:both;
+	
+	}	
+	
+	
+.courses-list .accordion_class.ui-state-hover, .courses-list .accordion_class.ui-accordion-header-active.ui-state-hover, .courses-list .ui-accordion-header-active{
+	background:url(../img/white_arrow_v.png)  no-repeat  98%  center ;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;	
+	color:#83e2d9;
+	border-bottom:1px solid #fff;
+	
+	}
+
+.lessons-list .accordion_class.ui-state-hover, .perigrafi .accordion_class.ui-state-hover, .lessons-list .accordion_class.ui-accordion-header-active.ui-state-hover, .perigrafi .ui-accordion-header-active.ui-state-hover,
+.lessons-list .accordion_class.ui-accordion-header-active, .perigrafi .ui-accordion-header-active{
+	background:url(../img/white_arrow_v.png)  no-repeat  98%  center ;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;	
+	color:#E2D396;
+	border-bottom:1px solid #fff;
+	}		
+	
+/*
+.accordion_class.ui-state-hover, .accordion_class.ui-accordion-header-active.ui-state-hover,  .ui-accordion-header-active{
+	background:url(img/ITYE/white_arrow_v.png)  no-repeat  98%  center ;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	  filter: alpha(opacity=90);
+	  -moz-opacity: 0.9;
+	  -khtml-opacity: 0.9;
+	  opacity: 0.9;	
+	  color:#E2D396;
+	  }
+	*/
+
+.ui-accordion-content{
+	margin:auto;
+	width:95%;
+	background:transparent;
+	}	
+
+.accordion>div{
+	display:none;}
+
+.classes-list a.course-link {
+	font-size: 14px;
+}
+
+.classes-list a.course-link .course-title {
+	color: #000000;
+	font-size: 13px;
+	line-height: 1.2em;
+	display: block;
+	background-color:#fff;
+	height: 53px;
+	margin-left:50px;
+	width: 90%;
+	padding:0px 20px 0px 20px;
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	  filter: alpha(opacity=80);
+	  -moz-opacity: 0.8;
+	  -khtml-opacity: 0.8;
+	  opacity: 0.8;		
+}
+
+.classes-list a.course-link .course-title span{
+	display:table-cell;
+	vertical-align:middle;
+	height:50px;}
+
+.classes-list a.course-link:hover .course-title {
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	  filter: alpha(opacity=90);
+	  -moz-opacity: 0.9;
+	  -khtml-opacity: 0.9;
+	  opacity: 0.9;		
+	}
+
+.classes-list ul {
+	margin-left: 15px;
+}
+
+.classes-list ul li {
+    margin: 0 10px 10px 5px;
+    min-width: 265px;
+    text-align: left;
+    width: 90%;
+	height: 35px;
+}
+
+.accordion_column.lesson{
+	padding:0px;
+	}
+
+
+
+
+
+	
