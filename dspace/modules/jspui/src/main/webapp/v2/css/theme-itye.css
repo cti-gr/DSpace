@@ -3396,7 +3396,7 @@ table caption {
 /*****************/
 
 #small_menu{
-	background: url("img/ITYE/nav-icon.png") no-repeat scroll center center #A1E2DE;
+	background: url("../img/nav-icon.png") no-repeat scroll center center #A1E2DE;
     content: "";
     display: none;
     height: 35px;
@@ -4179,7 +4179,7 @@ table.glossarytable a {
     text-decoration: none;
 }
 .socialButton {
-    background-image: url("./img/ITYE/tweet.png");
+    background-image: url("../img/side_menu/tweet.png");
     background-repeat: no-repeat;
     background-size: auto 100%;
     cursor: pointer;
@@ -4189,14 +4189,14 @@ table.glossarytable a {
     width: 32px;
 }
 #fbLink div.socialButton {
-    background-image: url("./img/ITYE/fb.png");
+    background-image: url("../img/side_menu/fb.png");
     margin-bottom: 3px;
 }
 #fbLink:hover div.socialButton {
-    background-image: url("./img/ITYE/fbActive.png");
+    background-image: url("../img/side_menu/fbActive.png");
 }
 #tweetLink:hover div.socialButton {
-    background-image: url("./img/ITYE/tweetActive.png");
+    background-image: url("../img/side_menu/tweetActive.png");
 }
 
 .inactive h3.accordion_class.ui-accordion-header-active,.inactive h3.accordion_class{

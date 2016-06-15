@@ -39,13 +39,13 @@
     opacity: 1;
 }
 #digital_school_menu #ds_trigger div.img_container {
-    background: rgba(0, 0, 0, 0) url("images/logoDschSFade.png") no-repeat scroll center center / auto 80%;
+    background: rgba(0, 0, 0, 0) url("../img/side_menu/logoDschSFade.png") no-repeat scroll center center / auto 80%;
     display: inline-block;
     height: 100%;
     width: 100%;
 }
 #digital_school_menu #ds_trigger div.img_container:hover {
-    background-image: url("images/logoDschS.png");
+    background-image: url("../img/side_menu/logoDschS.png");
 }
 #digital_school_menu div {
     height: 65px;
@@ -79,7 +79,7 @@
     font-weight: normal;
 }
 #digital_school_menu .ds_sidelink a {
-    background: #f4f4df url("images/digital_school.png") no-repeat scroll center center;
+    background: #f4f4df url("../img/side_menu/digital_school.png") no-repeat scroll center center;
     height: 55px;
     text-indent: -5000px;
 }
@@ -87,47 +87,47 @@
     background-color: #d6d5ba;
 }
 #digital_school_menu .e_books_sidelink a {
-    background: #edc53f url("images/ebooks.png") no-repeat scroll left center;
+    background: #edc53f url("../img/side_menu/ebooks.png") no-repeat scroll left center;
 }
 #digital_school_menu .e_books_sidelink a:hover {
     background-color: #d6b761;
 }
 #digital_school_menu .phot_lo__sidelink a {
-    background: #77aaa6 url("images/photodentro_lo.png") no-repeat scroll left center;
+    background: #77aaa6 url("../img/side_menu/photodentro_lo.png") no-repeat scroll left center;
     height: 73px;
 }
 #digital_school_menu .phot_video_sidelink a {
-    background: #77aaa6 url("images/photodentro_video.png") no-repeat scroll left center;
+    background: #77aaa6 url("../img/side_menu/photodentro_video.png") no-repeat scroll left center;
     height: 73px;
 }
 #digital_school_menu .phot_ugc_sidelink a {
-    background: #77aaa6 url("images/photodentro_ugc.png") no-repeat scroll left center;
+    background: #77aaa6 url("../img/side_menu/photodentro_ugc.png") no-repeat scroll left center;
     height: 73px;
 }
 #digital_school_menu .phot_bp_sidelink a {
-    background: #77aaa6 url("images/photodentro_bp.png") no-repeat scroll 12px center;
+    background: #77aaa6 url("../img/side_menu/photodentro_bp.png") no-repeat scroll 12px center;
     height: 73px;
 }
 #digital_school_menu .phot_edusoft_sidelink a {
-    background: #77aaa6 url("images/photodentro_edusoft.png") no-repeat scroll 5px 3px;
+    background: #77aaa6 url("../img/side_menu/photodentro_edusoft.png") no-repeat scroll 5px 3px;
     height: 73px;
 }
 #digital_school_menu .phot_cult_sidelink a {
-    background: #77aaa6 url("images/photodentro_cult.png") no-repeat scroll 12px center;
+    background: #77aaa6 url("../img/side_menu/photodentro_cult.png") no-repeat scroll 12px center;
     height: 73px;
 }
 #digital_school_menu .phot_lo__sidelink a:hover, #digital_school_menu .phot_video_sidelink a:hover, #digital_school_menu .phot_ugc_sidelink a:hover, #digital_school_menu .phot_bp_sidelink a:hover, #digital_school_menu .phot_edusoft_sidelink a:hover, #digital_school_menu .phot_cult_sidelink a:hover {
     background-color: #99bab7;
 }
 #digital_school_menu .phot_aggregator_sidelink a {
-    background: #577572 url("images/photodentro.png") no-repeat scroll 3px 5px;
+    background: #577572 url("../img/side_menu/photodentro.png") no-repeat scroll 3px 5px;
     height: 80px;
 }
 #digital_school_menu .phot_aggregator_sidelink a:hover {
     background-color: #99bab7;
 }
 #digital_school_menu .platform_sidelink a {
-    background: #68574c url("images/platform.png") no-repeat scroll left center;
+    background: #68574c url("../img/side_menu/platform.png") no-repeat scroll left center;
 }
 #digital_school_menu .platform_sidelink a:hover {
     background-color: #7f695d;
@@ -147,7 +147,7 @@
     line-height: 48px;
 }
 #digital_school_menu .e_books_sidelink a {
-    background: #edc53f url("images/ebooks_s.png") no-repeat scroll left center;
+    background: #edc53f url("../img/side_menu/ebooks_s.png") no-repeat scroll left center;
     line-height: 13px;
 }
 #digital_school_menu a {
@@ -160,49 +160,49 @@
     height: 58px;
 }
 #digital_school_menu .phot_aggregator_sidelink a {
-    background: #577572 url("images/photodentro_s.png") no-repeat scroll left center;
+    background: #577572 url("../img/side_menu/photodentro_s.png") no-repeat scroll left center;
     font-size: 12px;
     height: 58px;
     line-height: 11px;
 }
 #digital_school_menu .phot_lo__sidelink a {
-    background: #77aaa6 url("images/photodentro_lo_s.png") no-repeat scroll left center;
+    background: #77aaa6 url("../img/side_menu/photodentro_lo_s.png") no-repeat scroll left center;
     font-size: 12px;
     height: 48px;
     line-height: 11px;
 }
 #digital_school_menu .phot_video_sidelink a {
-    background: #77aaa6 url("images/photodentro_video_s.png") no-repeat scroll left center;
+    background: #77aaa6 url("../img/side_menu/photodentro_video_s.png") no-repeat scroll left center;
     font-size: 12px;
     height: 48px;
     line-height: 11px;
 }
 #digital_school_menu .phot_ugc_sidelink a {
-    background: #77aaa6 url("images/photodentro_ugc_s.png") no-repeat scroll left center;
+    background: #77aaa6 url("../img/side_menu/photodentro_ugc_s.png") no-repeat scroll left center;
     font-size: 12px;
     height: 48px;
     line-height: 11px;
 }
 #digital_school_menu .phot_bp_sidelink a {
-    background: #77aaa6 url("images/photodentro_bp_s.png") no-repeat scroll 7px center / auto 43px;
+    background: #77aaa6 url("../img/side_menu/photodentro_bp_s.png") no-repeat scroll 7px center / auto 43px;
     font-size: 12px;
     height: 48px;
     line-height: 11px;
 }
 #digital_school_menu .phot_edusoft_sidelink a {
-    background: #77aaa6 url("images/photodentro_edusoft_s.png") no-repeat scroll 7px center / auto 43px;
+    background: #77aaa6 url("../img/side_menu/photodentro_edusoft_s.png") no-repeat scroll 7px center / auto 43px;
     font-size: 12px;
     height: 48px;
     line-height: 11px;
 }
 #digital_school_menu .phot_cult_sidelink a {
-    background: #77aaa6 url("images/photodentro_cult_s.png") no-repeat scroll 7px center / auto 43px;
+    background: #77aaa6 url("../img/side_menu/photodentro_cult_s.png") no-repeat scroll 7px center / auto 43px;
     font-size: 12px;
     height: 48px;
     line-height: 11px;
 }
 #digital_school_menu .platform_sidelink a {
-    background: #68574c url("images/platform_s.png") no-repeat scroll left center;
+    background: #68574c url("../img/side_menu/platform_s.png") no-repeat scroll left center;
     line-height: 13px;
 }
 #digital_school_menu #ds_trigger {

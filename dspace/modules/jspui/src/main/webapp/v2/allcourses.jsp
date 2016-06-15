@@ -4,16 +4,13 @@
 <body>
 <div id="container">
 
-  <!-- BEGIN HeaderBlock -->
 	<%@include file="header.jsp" %>
-  <!-- END HeaderBlock -->
-
 	
 	<div id="img_container">
-      <img src="img/bg_lesson.jpg" id="bg_img" alt="φωτογραφία φόντου" class="bgwidth">
+      <img src="img/bg_lesson.jpg" id="bg_img" alt="φωτογραφία φόντου">
     </div>
 
-  <div id="content_course" style="min-height: 658px;">  
+  <div id="content_course" >  
     <div id="content-inner">
 		
 	
@@ -24,7 +21,6 @@
 		</div>
 
 		</div></div>
-	<div id="clearfooter" style="margin-top:50px;"></div>
 
      <%@include file="footer.jsp" %>
     
@@ -42,7 +38,7 @@
 			$.each(data.level, function(i, lvl) {
 				$('#level_list').append("<div class='accordion_column lesson' id='level"+lvl.id+"'><h3 class='edu_level'>"+lvl.value+"</h3></div>");
 				$.each(data.level[i].clas, function(j, cls) {
-					$('#level'+(i+1)).append("<div  class='accordion_cont'><div class='accordion'><h3 class='accordion_class'>"+cls.value+"</h3><div><ul id='course_list"+i+"_"+j+"'></ul></div></div></div>");
+					$('#level'+i).append("<div  class='accordion_cont'><div class='accordion'><h3 class='accordion_class'>"+cls.value+"</h3><div><ul id='course_list"+i+"_"+j+"'></ul></div></div></div>");
 					$.each(data.level[i].clas[j].course, function(k, crs) {
 					$('#course_list'+i+"_"+j).append("<li><a href='course-main.jsp?course="+crs.id+"' class='course-link'><span class='bgexof'></span><span class='li_wrapper'><span class='course-image'><img src='img/daizy-lesson-bg.png' alt='daizy' ></span><span class='course-name'><span class='title_wrap'><span>"+crs.value+"</span></span></span></span></a>	</li>");
 					});
@@ -61,9 +57,7 @@
 			
 			
 		});
-		
-
-	  
+		 
   });
   
 

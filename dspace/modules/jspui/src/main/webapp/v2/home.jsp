@@ -4,15 +4,13 @@
 <body>
 <div id="container">
 
-  <!-- BEGIN HeaderBlock -->
 	<%@include file="header.jsp" %>
-  <!-- END HeaderBlock -->
-  
+
 	<div id="img_container">
-      <img src="img/bg.jpg" id="bg_img" alt="φωτογραφία φόντου" class="bgwidth">
+      <img src="img/bg.jpg" id="bg_img" alt="φωτογραφία φόντου">
     </div>
 
-  <div id="content_course" style="min-height: 658px;">  
+  <div id="content_course">  
     <div id="content-inner">
    
       <div class="main-course-links">
@@ -77,11 +75,64 @@
 
     </div>
   </div>
-	<div id="clearfooter"></div>
 
      <%@include file="footer.jsp" %>
     
 </div>
 
+
+<script type="text/javascript">
+  jQuery(document).ready(function() {
+    $('.highlights').click(function(){
+      var url = $(this).next().attr('href');
+      window.location = url;
+    });
+	
+  $('.daizy_all').find('a').hover(
+   function () {
+	  $(this).find('img').attr('src', 'img/daizyM_b_over.png');
+   },
+    function () {
+	  $(this).find('img').attr('src', 'img/daizyM_b.png');
+   }
+  );
+  
+
+	$('.daizy_class').find('span').hover(
+   function () {
+	  $(this).find('img').attr('src', 'img/daizyM_r_over.png');
+   },
+    function () {
+	  $(this).find('img').attr('src', 'img/daizyM_r.png');
+   }
+  );
+
+  $('.daizy_lesson').find('a').hover(
+   function () {
+	  $(this).find('img').attr('src', 'img/daizyM_y_over.png');
+   },
+    function () {
+	  $(this).find('img').attr('src', 'img/daizyM_y.png');
+   }
+  );
+
+	$('.daizy_class').click(function() {
+			$('.frontpage-levels').fadeToggle(200).toggleClass('visible');
+  });
+  
+	  $('body').click(function(){
+			$('.frontpage-levels').fadeOut(200);
+		 });
+		
+		$('.daizy_class').click(function(event){
+		   event.stopPropagation();
+		});
+		
+		$('.frontpage-levels').click(function(event){
+		   event.stopPropagation();
+		});
+  
+});
+</script>
 
 </body></html>

@@ -4,16 +4,13 @@
 <body>
 <div id="container">
 
-  <!-- BEGIN HeaderBlock -->
 	<%@include file="header.jsp" %>
-  <!-- END HeaderBlock -->
-  
-	
+
 	<div id="img_container">
-      <img src="img/bg_material.jpg" id="bg_img" alt="φωτογραφία φόντου" class="bgwidth">
+      <img src="img/bg_material.jpg" id="bg_img" alt="φωτογραφία φόντου">
     </div>
 
-  <div id="content_course" style="min-height: 658px;">  
+  <div id="content_course">  
     <div id="content-inner">
 	
 	<div class='class-title-container'><div class='class-title'><h1 class='blue_title'>ΟΛΟ ΤΟ ΥΛΙΚΟ</h1></div></div>
@@ -54,9 +51,10 @@
 							</div>
 							<div class='lesson_leaf' id='bottom_left1'></div>
 							<div class='ibooks_leaf'>
-													<div class='lesson_leaf inactive' id='bottom_center'></div>
-													<p>βιβλία μαθητή<br><span>μη εμπλουτισμένα iBooks</span></p>
-												</div><div class='lesson_leaf' id='bottom_right1'></div>
+									<div class='lesson_leaf inactive' id='bottom_center'></div>
+									<p>βιβλία μαθητή<br><span>μη εμπλουτισμένα iBooks</span></p>
+							</div>
+						    <div class='lesson_leaf' id='bottom_right1'></div>
 							<div class='pdfbooks_leaf'>
 								<div class='lesson_leaf highlights' id='bottom_right2'></div>
 								<a href='allcoursespdf.jsp'>διδακτικά πακέτα<br><span>βιβλία pdf</span></a>
@@ -66,7 +64,6 @@
 					</div>
 	</div>
 		</div></div>
-	<div id="clearfooter"></div>
 
      <%@include file="footer.jsp" %>
     
@@ -75,6 +72,9 @@
 
 <script type="text/javascript">
 jQuery(document).ready(function() {
+   $('.menu-wrapper a').removeClass('active');
+   $('#all_menu').addClass('active');
+	
   $('#lesson_daizy a').hover(
     function() {
       $(this).prev().addClass('currentleaf');
@@ -94,16 +94,7 @@ jQuery(document).ready(function() {
     }
   );
   
-    
-  
 });
-</script>
 
-<script type="text/javascript">
-  jQuery(document).ready(function() {
-      $('.menu-wrapper a').removeClass('active');
-      $('#all_menu').addClass('active');
-	  
-  });
 </script>
 </body></html>
