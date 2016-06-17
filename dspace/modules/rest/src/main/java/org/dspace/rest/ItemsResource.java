@@ -907,7 +907,6 @@ public class ItemsResource extends Resource
             @QueryParam("xforwardedfor") String xforwardedfor, @Context HttpHeaders headers, @Context HttpServletRequest request)
             throws WebApplicationException
     {
-
         log.info("Looking for item with metadata(key=" + metadataEntry.getKey() + ",value=" + metadataEntry.getValue()
                 + ", language=" + metadataEntry.getLanguage() + ").");
         org.dspace.core.Context context = null;

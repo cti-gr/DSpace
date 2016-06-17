@@ -59,16 +59,17 @@
     </servlet-mapping>
 
     <!-- Security settings and mapping -->
-    <security-constraint>
-        <web-resource-collection>
+    <!-- ATTENTION: This should be re-enabled in production -->
+    <!-- <security-constraint>
+         <web-resource-collection>
             <web-resource-name>DSpace REST API</web-resource-name>
             <url-pattern>/*</url-pattern>
         </web-resource-collection>
         <user-data-constraint>
             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
         </user-data-constraint>
-    </security-constraint>
-    
+    </security-constraint> -->
+
     <!-- ConfigurationService initialization for dspace.dir -->
     <context-param>
         <description>
@@ -98,7 +99,7 @@
     <listener>
         <listener-class>org.dspace.servicemanager.servlet.DSpaceKernelServletContextListener</listener-class>
     </listener>
-    
+
     <listener>
         <listener-class>
             org.springframework.web.context.ContextLoaderListener
