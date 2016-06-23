@@ -62,8 +62,8 @@
               <div class="dimotiko">
                 <span>ΔΗΜΟΤΙΚΟ</span>
                 <ul>
-                  <li><a href="class-main.jsp?classcode=DSDIM-A">Α'</a></li>
-                  <li><a href="class-main.jsp?classcode=DSDIM-B">Β'</a></li>
+                  <li><a href="class-main.jsp?classcode=35a3c94b-e6b8-4f6b-a35f-3b61050300b1">Α'</a></li>
+                  <li><a href="class-main.jsp?classcode=31974be8-3d23-413f-98a7-8e519c170590">Β'</a></li>
                   <li><a href="class-main.jsp?classcode=DSDIM-C">Γ'</a></li>
                   <li><a href="class-main.jsp?classcode=DSDIM-D">Δ'</a></li>
                   <li><a href="class-main.jsp?classcode=DSDIM-E">Ε'</a></li>
@@ -73,7 +73,7 @@
               <div class="gymnasio">
                 <span>ΓΥΜΝΑΣΙΟ</span>
                 <ul>
-                  <li><a href="class-main.jsp?classcode=DSGYM-A">Α'</a></li>
+                  <li><a href="class-main.jsp?classcode=b3c8b6de-4039-40fb-9ee8-09916e453f9e">Α'</a></li>
                   <li><a href="class-main.jsp?classcode=DSGYM-B">Β'</a></li>
                   <li><a href="class-main.jsp?classcode=DSGYM-C">Γ'</a></li>
                 </ul>
@@ -104,8 +104,8 @@
               <div class="dimotiko">
                 <span>ΔΗΜΟΤΙΚΟ</span>
                 <ul>
-                  <li><a href="class-main.jsp?classcode=DSDIM-A">Α'</a></li>
-                  <li><a href="class-main.jsp?classcode=DSDIM-B">Β'</a></li>
+                  <li><a href="class-main.jsp?classcode=35a3c94b-e6b8-4f6b-a35f-3b61050300b1">Α'</a></li>
+                  <li><a href="class-main.jsp?classcode=31974be8-3d23-413f-98a7-8e519c170590">Β'</a></li>
                   <li><a href="class-main.jsp?classcode=DSDIM-C">Γ'</a></li>
                   <li style="clear:both;"><a href="class-main.jsp?classcode=DSDIM-D">Δ'</a></li>
                   <li><a href="class-main.jsp?classcode=DSDIM-E">Ε'</a></li>
@@ -115,7 +115,7 @@
               <div class="gymnasio">
                 <span>ΓΥΜΝΑΣΙΟ</span>
                 <ul>
-                  <li><a href="class-main.jsp?classcode=DSGYM-A">Α'</a></li>
+                  <li><a href="class-main.jsp?classcode=b3c8b6de-4039-40fb-9ee8-09916e453f9e">Α'</a></li>
                   <li><a href="class-main.jsp?classcode=DSGYM-B">Β'</a></li>
                   <li><a href="class-main.jsp?classcode=DSGYM-C">Γ'</a></li>
                 </ul>
